@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 480" width="740" height="480">
+  <!-- Window shadow -->
+  <rect x="4" y="8" width="736" height="472" rx="12" fill="rgba(0,0,0,0.4)"/>
+
+  <!-- Window background -->
+  <rect width="736" height="472" rx="12" fill="#13131f"/>
+
+  <!-- Title bar -->
+  <rect width="736" height="40" rx="12" fill="#1e1e30"/>
+  <rect y="28" width="736" height="12" fill="#1e1e30"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="20" r="7" fill="#ff5f57"/>
+  <circle cx="48" cy="20" r="7" fill="#febc2e"/>
+  <circle cx="72" cy="20" r="7" fill="#28c840"/>
+
+  <!-- Terminal label -->
+  <text x="368" y="25" text-anchor="middle" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="12" fill="#4a4a6a">Terminal</text>
+
+  <!-- Prompt line -->
+  <text x="24" y="68" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#4a4a6a">~ $ </tspan><tspan fill="#c0c0d8">/seed</tspan>
+  </text>
+
+  <!-- SEED logo - green -->
+  <text x="24" y="96"  fill="#4dde80" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13" xml:space="preserve">  ███████╗███████╗███████╗██████╗ </text>
+  <text x="24" y="113" fill="#4dde80" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13" xml:space="preserve">  ██╔════╝██╔════╝██╔════╝██╔══██╗</text>
+  <text x="24" y="130" fill="#3dd870" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13" xml:space="preserve">  ███████╗█████╗  █████╗  ██║  ██║</text>
+  <text x="24" y="147" fill="#3dd870" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13" xml:space="preserve">  ╚════██║██╔══╝  ██╔══╝  ██║  ██║</text>
+  <text x="24" y="164" fill="#28a745" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13" xml:space="preserve">  ███████║███████╗███████╗██████╔╝</text>
+  <text x="24" y="181" fill="#28a745" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13" xml:space="preserve">  ╚══════╝╚══════╝╚══════╝╚═════╝ </text>
+
+  <!-- Name + version -->
+  <text x="24" y="207" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#4dde80" font-weight="bold">SEED</tspan><tspan fill="#4a4a6a"> v0.1.0</tspan>
+  </text>
+  <text x="24" y="224" fill="#7b8cde" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">Structured Evaluation &amp; Engineering Design</text>
+
+  <!-- Divider -->
+  <line x1="24" y1="238" x2="712" y2="238" stroke="#1e1e30" stroke-width="1.5"/>
+
+  <!-- Greeting -->
+  <text x="24" y="258" fill="#4dde80" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">SEED loaded.</text>
+
+  <!-- Commands -->
+  <text x="24" y="283" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#c0c0d8">  -</tspan><tspan fill="#4dde80"> Ideate</tspan>
+    <tspan fill="#4a4a6a">    — Shape a new project idea (default)</tspan>
+  </text>
+  <text x="24" y="300" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#c0c0d8">  -</tspan><tspan fill="#4dde80"> Graduate</tspan>
+    <tspan fill="#4a4a6a">  — Move to apps/ with git repo</tspan>
+  </text>
+  <text x="24" y="317" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#c0c0d8">  -</tspan><tspan fill="#4dde80"> Launch</tspan>
+    <tspan fill="#4a4a6a">    — Graduate + initialize PAUL</tspan>
+  </text>
+  <text x="24" y="334" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#c0c0d8">  -</tspan><tspan fill="#4dde80"> Status</tspan>
+    <tspan fill="#4a4a6a">    — See projects in the pipeline</tspan>
+  </text>
+  <text x="24" y="351" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#c0c0d8">  -</tspan><tspan fill="#4dde80"> Add Type</tspan>
+    <tspan fill="#4a4a6a">  — Create a custom project type</tspan>
+  </text>
+
+  <!-- Prompt -->
+  <text x="24" y="383" fill="#c0c0d8" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">What are you building?</text>
+
+  <!-- Cursor -->
+  <text x="24" y="420" font-family="'SF Mono','Fira Code','Courier New',monospace" font-size="13">
+    <tspan fill="#4a4a6a">~ $ </tspan><tspan fill="#4dde80">▊</tspan>
+  </text>
+</svg>

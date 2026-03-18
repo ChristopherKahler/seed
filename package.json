@@ -1,0 +1,35 @@
+{
+  "name": "@chrisai/seed",
+  "version": "0.1.0",
+  "description": "Typed project incubator — guided ideation through graduation for Claude Code",
+  "bin": {
+    "seed-skill": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "seed.md",
+    "tasks",
+    "data",
+    "templates",
+    "checklists",
+    "README.md",
+    "terminal.svg"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "ideation",
+    "project-planning",
+    "seed",
+    "paul",
+    "skillsmith"
+  ],
+  "author": "Chris Kahler",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherKahler/seed.git"
+  },
+  "homepage": "https://github.com/ChristopherKahler/seed#readme"
+}
