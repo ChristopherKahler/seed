@@ -1,0 +1,25 @@
+{
+  "name": "seed",
+  "version": "0.0.0",
+  "milestone": {
+    "name": "v0.1 Initial Release",
+    "version": "0.1.0",
+    "status": "in_progress"
+  },
+  "phase": {
+    "number": 3,
+    "name": "Data Layer & Templates",
+    "status": "not_started"
+  },
+  "loop": {
+    "plan": null,
+    "position": "IDLE"
+  },
+  "timestamps": {
+    "created_at": "2026-03-17T23:14:00-05:00",
+    "updated_at": "2026-03-18T11:30:00-05:00"
+  },
+  "satellite": {
+    "groom": true
+  }
+}
