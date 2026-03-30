@@ -212,10 +212,10 @@ One command. Installs the skill to `~/.claude/commands/seed/` — available in e
 npm i -g @chrisai/seed
 
 # Install to current project only
-npm i -g @chrisai/seed -- --local
+npx @chrisai/seed --local
 
 # Custom Claude config directory
-npm i -g @chrisai/seed -- --config-dir /path/to/.claude
+npx @chrisai/seed --config-dir /path/to/.claude
 ```
 
 Then open Claude Code and type `/seed` to start.
