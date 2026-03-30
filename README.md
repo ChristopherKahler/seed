@@ -202,14 +202,14 @@ All integrations are additive. SEED works without any of them installed.
 ## Install
 
 ```bash
-npm i -g @chrisai/seed
+npx @chrisai/seed
 ```
 
 One command. Installs the skill to `~/.claude/commands/seed/` — available in every workspace.
 
 ```bash
 # Global install (default) — available everywhere
-npm i -g @chrisai/seed
+npx @chrisai/seed
 
 # Install to current project only
 npx @chrisai/seed --local
