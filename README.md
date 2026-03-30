@@ -202,20 +202,20 @@ All integrations are additive. SEED works without any of them installed.
 ## Install
 
 ```bash
-npm i -g @chrisai/seed
+npx @chrisai/seed
 ```
 
 One command. Installs the skill to `~/.claude/commands/seed/` — available in every workspace.
 
 ```bash
 # Global install (default) — available everywhere
-npm i -g @chrisai/seed
+npx @chrisai/seed
 
 # Install to current project only
-npm i -g @chrisai/seed -- --local
+npx @chrisai/seed --local
 
 # Custom Claude config directory
-npm i -g @chrisai/seed -- --config-dir /path/to/.claude
+npx @chrisai/seed --config-dir /path/to/.claude
 ```
 
 Then open Claude Code and type `/seed` to start.
