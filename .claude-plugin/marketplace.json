@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "seed",
+  "owner": {
+    "name": "ChristopherKahler"
+  },
+  "metadata": {
+    "description": "SEED — typed project incubator that guides ideation through graduation into buildable projects."
+  },
+  "plugins": [
+    {
+      "name": "seed",
+      "source": ".",
+      "description": "SEED — Structured Evaluation & Engineering Design: typed project incubator that guides ideation through graduation into buildable projects.",
+      "category": "framework",
+      "keywords": ["seed", "ideation", "project-planning", "incubator", "paul", "scaffold"]
+    }
+  ]
+}

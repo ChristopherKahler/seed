@@ -1,0 +1,10 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "SEED — Structured Evaluation & Engineering Design: typed project incubator that guides ideation through graduation into buildable projects.",
+  "license": "MIT",
+  "homepage": "https://github.com/ChristopherKahler/seed#readme",
+  "author": {
+    "name": "Chris Kahler"
+  }
+}
