@@ -208,6 +208,8 @@ All integrations are additive. SEED works without any of them installed.
 
 ## Install
 
+### npm (global)
+
 ```bash
 npm i -g @chrisai/seed
 ```
@@ -223,6 +225,18 @@ npm i -g @chrisai/seed -- --local
 
 # Custom Claude config directory
 npm i -g @chrisai/seed -- --config-dir /path/to/.claude
+```
+
+### npx (no global install)
+
+Prefer not to install globally? Run it directly with `npx` — no prior install needed:
+
+```bash
+# Global install (default) — available everywhere
+npx @chrisai/seed
+
+# Install to current project only
+npx @chrisai/seed --local
 ```
 
 Then open Claude Code and type `/seed` to start.
