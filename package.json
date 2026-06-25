@@ -1,6 +1,9 @@
 {
   "name": "@chrisai/seed",
   "version": "1.0.0",
+  "scripts": {
+    "postinstall": "node bin/postinstall.js"
+  },
   "description": "Typed project incubator — guided ideation through graduation for Claude Code. Part of the Agentic OS by Chris AI Systems.",
   "bin": {
     "seed": "bin/install.js"
